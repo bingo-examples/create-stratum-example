@@ -2,7 +2,7 @@ import { testBlock } from "bingo-stratum-testers";
 import { describe, expect, test } from "vitest";
 
 import { blockIndex } from "./blockIndex.js";
-import { optionsBase } from "./options.fakes.js";
+import { optionsBase } from "../options.fakes.js";
 
 describe("blockIndex", () => {
 	test("without addons", () => {

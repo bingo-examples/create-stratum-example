@@ -2,7 +2,7 @@ import { testBlock } from "bingo-stratum-testers";
 import { describe, expect, test } from "vitest";
 
 import { blockLicense } from "./blockLicense.js";
-import { optionsBase } from "./options.fakes.js";
+import { optionsBase } from "../options.fakes.js";
 
 describe("blockLicense", () => {
 	test("production", () => {

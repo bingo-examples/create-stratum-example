@@ -1,4 +1,4 @@
-import { BaseOptions } from "../base.js";
+import { BaseOptions } from "./base.js";
 
 export const optionsBase = {
 	description: "Test description",
