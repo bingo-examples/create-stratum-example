@@ -1,2 +1,5 @@
-export * from "./greet.js";
-export * from "./types.js";
+import { template } from "./template.js";
+
+export default template;
+
+export const { createConfig } = template;
